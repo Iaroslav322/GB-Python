@@ -36,7 +36,6 @@ for i, val in enumerate(f_diff):
         elif ext_list[i - 1] > 0 > ext_list[i]:
             print(f"Точка максимума: {val}, {y.subs(x, val).evalf(2)}")
 
-a3 = solve(y>0)
 print(f'\n 6. Определить промежутки, на котором f > 0: ')
 print(solve(y>0))
 
